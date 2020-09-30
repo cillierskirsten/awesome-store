@@ -1,0 +1,8 @@
+.product-card-link-style {
+    display: flex;
+    flex-basis: 20rem;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    color: initial;
+    text-decoration: none;
+};
