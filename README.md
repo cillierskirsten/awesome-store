@@ -1,6 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+<h1>Awesome Store - My First ReactJS Project</h1>
+<p>--April 2020--<br/></p>
+<h2>What is the Awesome Phonebook?</h2>
+<p>The Store is my first project which I completed as part of my ReactJS Bootcamp. This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App</a> and the application was completed. I found the course insightful and the way the instructor integrated material with regular challenges and practical exercises made sure that I could put theory into practice, and use my newly acquired React and Redux skills to produce a workable web application. There are still some minor changes required on the project itself to integrate API's and allow adding Reviews, but these will be completed, tested and added in due course.</p>
+<h2>The Course and Instructor</h2>
+<p>The course was an Instructor-Led online training course hosted by <a href="https://www.knowledgehut.com/" target="_blank">Knowledge Hut</a> and run by <a href="https://github.com/puranik3" target="_blank">Prashanth Puranik</a>. Prashanth is a freelance web developer and corporate trainer. He is primarily trained on JS-based Technologies (for both Front - and Back-End.) His delivery and understanding of subject matter was second to none. His natural ability for imparting knowledge created the perfect environment to streamline my learnings in becoming a Front-End Developer, or at least have learnt enough to be able to hold my own during the "more technical" debates hosted by seasoned developers.</p>
+<h2>The Challenges and Exercises</h2>
+<p>The course used a time-tested, battle-proven method to make sure I understand exactly how React and Redux work. Through projects and tasks it helped me understand design patterns and the fundamentals of building dynamic, live web applications using React. Topics were introduced incrementally to ensure solid foundation knowledge which helped understand when and where to use each feature of React and Redux.</h2>
+<p>
+<ul>
+<li>Building applications with React JS and Redux</li>
+<li>Using popular styling libraries to create beautiful. clean looking apps</li>
+<li>Mastering fundamental concepts behind structuring Redux applications</li>
+<li>Realizing the power of building composable components, and seeing the different methods of building UI's through composition of components</li>
+<li>Becoming fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax</li>
+</ul>
+</p>
+<h2>Available Scripts</h2>
+<p>In the project directory, you can run:
 
 In the project directory, you can run:
 
@@ -37,32 +53,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+</p>
+<h2>--fin--</h2>
+
+
