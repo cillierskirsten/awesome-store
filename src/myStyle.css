@@ -1,0 +1,43 @@
+html, #root {
+    background-color: #e9ecef;
+}
+
+.navbar, .container {
+    width: 50%;
+    margin: 0 auto;
+}
+.navbar, .myNew-4 {
+    min-width: 450px;
+}
+.myNew-4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px;
+}
+.container {
+    background-color: #fff;
+}
+
+.jumbotron {
+    background-color: transparent;
+
+}
+
+div.container div div.container {
+    width: 100%;
+}
+
+#starRating {
+    min-width: 200px;
+    max-width: 30%;
+}
+
+a {
+    font-weight: 100;
+}
+a:hover {
+    
+}
+a:active {
+    font-weight: 600;
+}

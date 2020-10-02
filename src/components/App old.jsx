@@ -22,7 +22,7 @@ const App = () => {
                 </nav>
             </div>
 
-            <div className="container myNew-4">
+            <div className="container my-4">
                 <Switch>
                     <Route path="/products/:id" component={ProductDetails} />
                     <Route path="/products" component={Products} exact={true} />

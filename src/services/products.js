@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default {
+const ProductsService = {
     baseUrl: `https://awesome-store-server.herokuapp.com`,
     successHandler: response => response.data,
     errorHandler:  error => {
@@ -20,5 +20,19 @@ export default {
     },
     getAllReviewsForProduct( id ) {
         return this.get( `products/${id}/reviews` );
+    },
+    addReview( review ) {
+        return axios.post(
+            `https://awesome-store-server.herokuapp.com/reviews`,
+            review,
+            {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }
+        )
+            .then( response => response.data );
     }
-};
+}
+
+export default ProductsService;

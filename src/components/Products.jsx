@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import * as Actions from '../actions';
 import productsService from '../services/products';
 import { ProductCardLinkStyle } from './Products.css.js';
+
+import * as Actions from '../actions/constants';
 
 class Products extends Component {
     state = {

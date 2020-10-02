@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import * as Actions from '../actions';
 import productsService from '../services/products';
+
+import * as Actions from '../actions/constants';
 
 class Reviews extends Component {
     state = {

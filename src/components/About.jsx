@@ -1,5 +1,7 @@
+//imr - imports React
 import React from 'react';
 
+//sfc - creates stateless function
 const About = () => {
     return (
         <div className="jumbotron">

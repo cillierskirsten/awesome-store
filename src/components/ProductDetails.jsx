@@ -5,7 +5,7 @@ import AddReview from './AddReview';
 
 import productsService from '../services/products';
 
-import * as Actions from '../actions';
+import * as Actions from '../actions/constants';
 
 class ProductDetails extends Component {
     state = {
@@ -76,9 +76,9 @@ class ProductDetails extends Component {
             <div>
                 {el}
                 <div className="h5">
-                    <Link to={`${this.props.match.url}/reviews`}>Reviews</Link>
+                    <Link to={`${this.props.match.url}/reviews`} className='reviewsNew'>Reviews</Link>
                     {' | '}
-                    <Link to={`${this.props.match.url}/addreview`}>Post a review</Link>
+                    <Link to={`${this.props.match.url}/addreview`} className='addreviewNew'>Post a review</Link>
                 </div>
                 <Switch>
                     <Route path={`${this.props.match.path}/reviews`} component={Reviews} />
